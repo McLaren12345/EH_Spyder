@@ -1,0 +1,2 @@
+2021-01-14 11:07:54,745 - ERROR - test
+2021-01-14 11:08:57,141 - WARNING - Fail download https://e-hentai.org/g/1497347/b82d3780a2/ - 9.jpg
