@@ -1,2 +1,15 @@
 2021-01-14 11:07:54,745 - ERROR - test
 2021-01-14 11:08:57,141 - WARNING - Fail download https://e-hentai.org/g/1497347/b82d3780a2/ - 9.jpg
+2021-01-14 11:45:45,226 - INFO - https://e-hentai.org/g/1412042/4b977512ed/has already been downloaded
+2021-01-14 15:28:19,761 - WARNING - Fail download https://e-hentai.org/g/1592885/662f1004ac/ - 17.jpg
+2021-01-14 15:29:06,478 - INFO - https://e-hentai.org/g/1555176/f5b3171f05/ has already been downloaded
+2021-01-14 15:30:39,514 - WARNING - Fail download https://e-hentai.org/g/1551677/2a02cc14d9/ - 12.jpg
+2021-01-14 16:31:52,338 - INFO - https://e-hentai.org/g/917835/ca97ff3e42/ has already been downloaded
+2021-01-14 16:54:21,177 - ERROR - Fail download
+2021-01-14 18:10:40,545 - WARNING - Fail download https://e-hentai.org/g/743661/de9b15bc85/ - 34.jpg
+2021-01-14 20:22:17,329 - WARNING - Fail download https://e-hentai.org/g/1824764/2659b3cfc7/ - 7.jpg
+2021-01-14 20:33:37,287 - INFO - https://e-hentai.org/g/1658351/c33709de8b/ has already been downloaded
+2021-01-14 20:36:56,427 - WARNING - Fail download https://e-hentai.org/g/1517853/f31d8f1605/ - 13.jpg
+2021-01-14 20:36:59,146 - WARNING - Fail download https://e-hentai.org/g/1517853/f31d8f1605/ - 14.jpg
+2021-01-14 20:37:28,596 - WARNING - Fail download https://e-hentai.org/g/1517853/f31d8f1605/ - 21.jpg
+2021-01-14 20:39:06,132 - WARNING - Fail download https://e-hentai.org/g/1496366/9c773d2379/ - 3.jpg

@@ -102,7 +102,9 @@ class Doujinshi:
         content = site.text
         soup = BeautifulSoup(content, 'lxml')
         self.pages = int(soup.find('div', id='gdd').find_all(class_="gdt2")[5].string.split(' ')[0])
-        self.title = str(soup.find('h1', id='gj').get_text)
+        self.title = str(soup.find('h1', id='gj').get_text) \
+            if str(soup.find('h1', id='gj').get_text).split('>')[1].split('<')[0] != '' \
+            else str(soup.find('h1', id='gn').get_text)
         self.title_regular()
         self.divs = soup.find_all(class_='gdtm')
         # 超过40page的图片会分页，要继续读取后续的页
@@ -133,7 +135,7 @@ class Doujinshi:
 
     def save_all(self):
         if os.path.exists(self.download_dir + self.title):
-            logger.info(self.url + 'has already been downloaded')
+            logger.info(self.url + ' has already been downloaded')
             print('This Doujinshi has already been downloaded')
         else:
             os.makedirs(self.download_dir + self.title)

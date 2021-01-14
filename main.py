@@ -18,6 +18,8 @@ def read_download_list():
 def main():
     download_list = read_download_list()
     for doujinshi in download_list:
+        if doujinshi.find('http') == -1:
+            continue
         file = Doujinshi(doujinshi.strip('\n'))
         try:
             file.decode().save_all()
