@@ -17,13 +17,12 @@ import logging
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-    'Cookie': '__cfduid=d0665d2559063760e94951467e6f85e901610423569; ipb_member_id=5666431; ipb_pass_hash=4e29adc0443606aee2947e7903e9c3b9; sk=giw0bfxmqti2za4qbd6q4mi2swfn; event=1610590658; nw=1',
     'Upgrade-Insecure-Requests': '1'}
 
 headersEX = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-    'Cookie': 'ipb_member_id=5113267; ipb_pass_hash=f7a38f0454b7f50e353ffbaf1beff8aa; igneous=2f91b2baf; sk=rhrnhokh0u3pd28qy3q2mrst4bpq',
+    'Cookie': 'ipb_member_id=; ipb_pass_hash=; igneous=; sk=',
     'Upgrade-Insecure-Requests': '1'}
 
 logger = logging.getLogger(__name__)
